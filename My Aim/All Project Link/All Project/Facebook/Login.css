@@ -1,0 +1,119 @@
+body
+{
+    background-color: rgb(240, 242, 245);
+}
+.main-container
+{
+    display: flex;
+    justify-content:space-around;
+    padding: 0px 10px 0px 90px;
+}
+.container1
+{
+    width: 620px;
+    height: 430px;
+    margin-top: 160px;
+}
+.container2
+{
+    width: 455px;
+    height: 400px;
+    margin-top: 155px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 8px 20px rgb(211, 211, 211);
+    padding: 20px;
+}
+.logo
+{
+    width: 305px;
+    padding-top: 90px;
+}
+.desc
+{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 22px;
+}
+.input
+{
+    border: 1px solid rgb(219, 219, 219);;
+    width: 90%;
+    height: 64px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    font-size: 21px;
+    padding: 0px 20px;
+}
+.btn-login
+{
+    border: none;
+    width: 100%;
+    height: 60px;
+    margin: 3px 0px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(24, 119, 242);
+    border-radius: 7px;
+    transition: all 0.2s;
+}
+.btn-login:hover
+{
+    background-color: rgb(21, 108, 223);
+}
+.f-pass
+{
+    font-size: 17.5px;
+    margin: 20px 0px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link
+{
+    color: rgb(101,126,243);
+    text-decoration: none;
+}
+.link:hover
+{
+    text-decoration: solid;
+}
+.btn-new
+{
+    border: none;
+    width:54%;
+    height: 42px;
+    margin: 20px 0px;
+    color: white;
+    font-size: 21.5px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(66, 183, 42);
+    border-radius: 7px;
+    transition: all 0.2s;
+}
+.btn-new:hover
+{
+    background-color: rgb(56, 164, 35);
+}
+.create-page
+{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 35px 0px 0px 930px;
+}
+.c-page
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+.c-page:hover
+{
+    text-decoration:double;
+}

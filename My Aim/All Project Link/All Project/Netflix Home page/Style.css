@@ -1,0 +1,245 @@
+*
+{
+    margin: 0px;
+}
+.container1
+{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.9)), url(./Pictures/IN-en-20220905-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    height: auto;
+    color: white;
+}
+.logo
+{
+    width: 178px;
+}
+.subcontainer1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 50px;
+}
+.lang
+{
+    font-size: 17px;
+    width: 90px;
+    height: 37px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 0px 30px;
+}
+.lang-option
+{
+    background-color: darkgrey;
+}
+.btn
+{
+    font-size: 17px;
+    width: 85px;
+    height: 36px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+}
+.subcontainer2
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 150px 0px;
+}
+.heading1
+{
+    font-size: 62px;
+    font-weight: bold;
+}
+.heading2
+{
+    font-size: 26px;
+}
+.heading3
+{
+    font-size: 19px;
+}
+.input-box
+{
+    width:490px;
+    height:70px;
+    font-size: 17px;
+    padding-left: 10px;
+    background-color: white;
+    border: none;
+    margin-left: -240px;
+}
+.input-container
+{
+    position: relative;
+}
+.get-started
+{
+    width:230px;
+    height:72px;
+    font-size: 30px;
+    border: none;
+    padding: 11px;
+    background-color: #e30813;
+    color: white;
+    position: absolute;
+}
+.hr-line
+{
+    height: 8px;
+    background-color: #222222;
+    border: none;
+}
+.container2
+{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px;
+}
+.content2
+{
+    width: 498px;
+    margin: 60px 0px 0px 50px;
+}
+.content5
+{
+    position: relative;
+}
+.download
+{
+    width: 308px;
+    height: 80px;
+    border: 2px solid #3f3f3f;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 210px;
+    left: 58px;
+}
+.download-text
+{
+    margin: 25px 0px 0px -50px;
+}
+.download-text div
+{
+    color: royalblue;
+    font-weight: normal;
+}
+.download-logo
+{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.heading1_1
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.img-tv
+{
+    width: 570px;
+}
+.content3
+{
+    width: 538px;
+    margin: 60px 90px 0px 0px;
+}
+.content4
+{
+    width: 538px;
+    margin: 100px 0px 0px 142px;
+}
+.img-mob
+{
+    width: 505px;
+    margin: -40px 0px 0px -30px;
+}
+.img-child
+{
+    width: 510px;
+    margin: 0px 0px 0px 85px;
+}
+.content6
+{
+    width: 700px;
+    margin: 0px 0px 150px 70px;
+    position: relative;
+}
+.img-con5
+{
+    width: 340px;
+    margin: 10px 0px 0px 100px;
+}
+.img-devices
+{
+ position: absolute;
+ width: 550px;
+ top: -30px;
+ left: 0px;
+}
+.container3
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 70px 0px;
+}
+.FAQ
+{
+    width: 815px;
+    height: 75px;
+    background-color: #303030;
+    border: none;
+    margin: 5px;
+    padding: 0px 30px;
+    font-size: 26px;
+    color: white;
+}
+footer
+{
+    background-color: black;
+    color: #737373;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px 340px;
+    line-height: 30px;
+    font-size: 13px;
+}
+.footer-links
+{
+    display: flex;
+    justify-content: space-between;
+}
+footer a
+{
+    text-decoration: none;
+    color: #737373;
+}
+.Questions
+{
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+.lang2
+{
+    font-size: 17px;
+    width: 130px;
+    height: 53px;
+    color: #737373;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.2px solid #737373;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,492 @@
+*
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+nav
+{
+    display: flex;
+    justify-content:center;
+    background-image: linear-gradient(to bottom, #ff9500, #ffa700,#ffad00);
+    height: 72px;
+}
+.nav-items-tray
+{
+    display: flex;
+    margin-top: 37px;
+}
+.nav-items
+{
+    font-size: 14px;
+    padding: 9px 28px;
+    font-weight: bold;
+    color: black;
+    border-right: 1px solid #ffcc5f;
+}
+.nav-items:hover
+{
+    color: white;
+}
+.active
+{
+    background-image: linear-gradient(to bottom right, #ffa700, #ffae0b, #ffe5ae);
+}
+a
+{
+    text-decoration: none;
+}
+.container1
+{
+    text-align: center;
+    background: url(./Images/dog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 606px;
+}
+.container2
+{
+    display: flex;
+    justify-content: center;
+}
+.home-pet-info
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.info1
+{
+    display: flex;
+    justify-content: space-evenly;
+    color: #86795d;
+    line-height: 25px;
+    font-size: 15px;
+    margin: 20px 10px;
+}
+.text-area
+{
+    width: 190px;
+}
+.info-heading
+{
+    font-size: 20px;
+    color: black;
+}
+.search-box
+{
+    background-color: #ffac00;
+    padding: 7px;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+}
+.products
+{
+    margin: 20px;
+}
+.search-input
+{
+    width: 190px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #ff9500;
+}
+.search-btn
+{
+    width: 70px;
+    height: 29px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #fae3b2;
+    font-weight: bold;
+    border: 1px solid #ffcc5f;
+    background-color: #ffac00;
+    cursor: pointer;
+}
+.shopping-links
+{
+    font-size: 14px;
+    margin-top: 30px;
+}
+.shopping-btns
+{
+    display: flex;
+    justify-content: space-between;
+}
+.shopping-btn
+{
+    background-color: #ffdb90;
+    padding: 7px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px 505px 0px 0px;
+    cursor: pointer;
+}
+.link-box
+{
+    background-color: #ffdb90;
+    padding: 5px 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+.link-data
+{
+    border: 1px solid #d1ad63;
+    padding: 5px;
+    margin-bottom: 3px;
+    border-radius: 6px;
+    background-color: #ffd06e;
+    color: #786b41;
+    display: flex;
+    justify-content: space-between;
+}
+.link-data a
+{
+    color: #e6ab3f;
+}
+
+
+
+/* --------------------------------- PetMart ---------------------------------- */
+
+.PetMart-container1
+{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 0px;
+}
+.PetMart-container2
+{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 12px;
+}
+.search-input2
+{
+    width: 420px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #ff9500;
+}
+.PertMart-items-tray
+{
+    display: flex;
+    margin-top: 80px;
+}
+.PertMart-item
+{
+    display: flex;
+    margin: 0px 60px 18px 0px;
+}
+.text-area2
+{
+    font-size: 15px;
+    line-height: 26px;
+    padding: 3px 10px;
+}
+.text-area2 .heading
+{
+    font-size: 21px;
+}
+.text-area2 a
+{
+    color: #786b41;
+}
+
+/* --------------------------------- ABOUT US ---------------------------------- */
+
+.about-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+.about-heading
+{
+    width: 590px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+    color: #86795d;
+}
+.about-heading a
+{
+    font-size: 25px;
+    color: #ff9506;
+}
+.about-container2
+{
+    margin-left: 45px;
+}
+.about-container2 h2
+{
+    font-weight: normal;
+}
+.about-container2 .info1
+{
+    margin: 20px 0px 0px 0px;
+}
+.about-container2 .text-area
+{
+    width: 200px;
+}
+
+/* --------------------------------- BLOG ---------------------------------- */
+.blog-containers
+{
+    display: flex;
+    justify-content: center;
+}
+.blog-box
+{
+    width: 630px;
+    line-height: 25px;
+    font-size: 14px;
+    margin: 25px 0px;
+}
+.blog-heading
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 30px;
+    margin-top: -80px;
+}
+.blog-items
+{
+    display: flex;
+}
+.blog-date
+{
+    font-size: 18px;
+    color: white;
+}
+.item-heading
+{
+    font-size: 26px;
+    color: #ff9d13;
+    margin: 0px 0px 0px 30px;
+}
+.blog-heading img
+{
+    width: 19px;
+}
+.blog-box p
+{
+    margin:6px 0px 0px 44px;
+    color: #7f7154;
+}
+.blog-container2
+{
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 10px;
+    padding: 40px 55px 30px 25px;
+    margin: 82px 0px 0px 35px;
+    height: fit-content;
+}
+.blog-container2 h2
+{
+    font-weight: normal;
+    margin-bottom: 7px;
+}
+.blog-container2 select
+{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    color: #ff9d13;
+}
+.page
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 35px;
+}
+.post
+{
+    margin: 20px 0px 60px;
+    font-family: serif;
+    color: #7f7154;
+}
+.post:hover
+{
+    color: #ff9d13;
+}
+
+/* --------------------------------- CONTACT US ---------------------------------- */
+
+.Contact-box
+{
+    width: 600px;
+    line-height: 25px;
+    font-size: 14px;
+    margin: 25px 0px;
+    color: #786b41;
+}
+.Contact-box h2
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+.contact-links
+{
+    margin: 75px 70px;
+}
+.contact-links h1
+{
+    font-weight: normal;
+    font-size: 30px;
+}
+.contact-link img
+{
+    width: 42px;
+}
+.contact-link
+{
+    display: flex;
+    padding: 10px 10px 0px 0px;
+}
+.contact-link p
+{
+    margin: 10px 20px;
+    color: #938a8a;
+    font-family: serif;
+}
+.Contact-details
+{
+    width: 530px;
+    margin: 35px 5px;
+}
+.Contact-details hr
+{
+    background-color: #cdcbcb;
+    height: 1px;
+    border: none;
+}
+.details-heading
+{
+    font-size: 20px;
+    color: #ff9500;
+}
+.Contact-details p
+{
+    font-size: 14px;
+    color: #786b41;
+    line-height: 25px;
+}
+
+/* --------------------------------- PetGuide ---------------------------------- */
+
+.Pet-guides
+{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+.guide-box
+{
+    width: 250px;
+    font-size: 14px;
+    color: #786b41;
+    line-height: 25px;
+    margin: 15px 0px;
+}
+.guide-heading
+{
+    font-size: 20px;
+    background-color: #ff9500;
+    color: white;
+    text-align: center;
+    padding: 2px 0px 3px;
+}
+.page-btns
+{
+    display: flex;
+    font-size: 20px;
+    margin: 13px 0px 40px 5px;
+}
+.btn1
+{
+    width: 13px;
+    height: 22px;
+    background-color: #c3bcae;
+    margin: 5px;
+    color: white;
+    padding: 9px 13px;
+    border-radius: 10px;
+}
+.btn2
+{
+    width: 53px;
+    height: 22px;
+    background-color: #c3bcae;
+    margin: 5px;
+    color: white;
+    padding: 9px 22px;
+    border-radius: 10px;
+}
+.btn-select
+{
+    background-color: #85766b;
+}
+.guide-links
+{
+    font-size: 14px;
+    margin: 20px 0px 0px 33px;
+    line-height: 25px;
+}
+.guide-links a
+{
+    color: #85766b;
+}
+.guide-links a:hover
+{
+    color: #ff9500;
+}
+.no-of-guide
+{
+    color: #ff9500;
+}
+
+/* --------------------------------- FOOTER ---------------------------------- */
+.container3
+{
+    display: flex;
+    justify-content: center;
+    background-color: #f8f3e9;
+}
+.container3 img
+{
+    border-radius: 10px;
+    margin: 20px 15px;
+}
+.container4
+{
+    display: flex;
+    justify-content: center;
+    background-color: #310000;
+    height:189px;
+}
+.bottom-text-box
+{
+    width: 210px;
+    font-size: 14px;
+    color: white;
+    margin-top: -117px;
+    padding: 15px;
+    line-height: 20px;
+}
+.bottom-text-box div
+{
+    color: #bef905;
+    font-size: 16px;
+}
+
+footer
+{
+    background-color: #ffa700;
+    text-align: center;
+    font-size: 13px;
+    padding: 18px 0px;
+}

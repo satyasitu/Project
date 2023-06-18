@@ -1,0 +1,117 @@
+body
+{
+    background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)), url(./background.png);
+    background-size: 1535px;
+    margin: 0px 490px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 242, 245);
+}
+.container
+{
+    position: relative;
+    background-color: white;
+    padding: 12px 20px;
+    margin-top: 90px;
+    box-shadow: 2px 8px 20px rgb(211, 211, 211);
+    border-radius: 10px;
+    color: grey;
+}
+.heading
+{
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+}
+.desc2
+{
+    margin: 5px 0px 18px;
+    font-size: 19px;
+}
+.name
+{
+    display: flex;
+    justify-content: space-between;
+}
+.input2
+{
+    border: 1px solid rgb(219, 219, 219);;
+    width: 40.5%;
+    height: 48px;
+    margin: 15px 0px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding: 0px 20px;
+    background-color: rgb(245, 246, 247);
+}
+.input3
+{
+    border: 1px solid rgb(219, 219, 219);;
+    width: 92%;
+    height: 48px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding: 0px 20px;
+    background-color: rgb(245, 246, 247);
+}
+.input4
+{
+    border: 1px solid rgb(219, 219, 219);;
+    width: 30%;
+    height: 48px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 19px;
+    padding: 0px 20px;
+}
+.input5
+{
+    border: 1px solid rgb(219, 219, 219);;
+    width: 22%;
+    height: 35px;
+    margin-bottom: 15px;
+    padding-top: 105px;
+    border-radius: 5px;
+    color: black;
+    font-size: 19px;
+    padding: 10px 20px 0px;
+}
+.desc3
+{
+    font-size: 14px;
+}
+.btn-SignUp
+{
+    border: none;
+    width:45%;
+    height: 45px;
+    margin: 30px 0px 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(0, 164, 0);
+    border-radius: 10px;
+    transition: all 0.2s;
+    align-items: center;
+}
+.btn-SignUp:hover
+{
+    background-color: rgb(103, 159, 103);
+}
+.link
+{
+    color:rgb(0, 0, 211);
+    text-decoration: none;
+}
+.cross
+{
+    text-align: right;
+    text-decoration: none;
+    position: absolute;
+    font-family:cursive;
+    color: rgb(96,103,113);
+    font-size: 46px;
+    top: -10px;
+    right: 10px;
+}

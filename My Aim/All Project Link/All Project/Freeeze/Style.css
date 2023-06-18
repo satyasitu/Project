@@ -1,0 +1,365 @@
+/* ---------------------------- navbar ----------------------- */
+
+*
+{
+    font-family:sans-serif;
+    margin: 0px;
+}
+nav
+{
+    display: flex;
+    background-color: #eeebec;
+    padding: 40px 310px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+.nav-item
+{
+
+    font-size: 15px;
+    padding: 5px 0px 5px 50px;
+    text-align: center;
+}
+.nav-right
+{
+    position: absolute;
+    right: 330px;
+    top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.nav-link
+{
+    color: #7a6666;
+    text-decoration: none;
+}
+.nav-link1
+{
+    color:#eeebec;
+    text-decoration: none;
+}
+.active
+{
+    color: #e32a62;
+}
+.nav-link:hover, .nav-link1:hover
+{
+    color: #c8c10d;
+}
+/* ---------------------------- home container ----------------------- */
+
+.container1
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    margin-top:120px ;
+}
+.circle
+{
+    position: absolute;
+    top: 550px;
+    margin-left: 550px;
+}
+.circle-text
+{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -107px;
+    color: white;
+}
+.container2
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #eae7e8;
+    padding: 0px 200px 0px 250px;
+}
+.box2
+{
+    width: 500px;
+    padding: 50px 0px 0PX;
+}
+.head2
+{
+    font-size: 20px;
+    font-weight:550;
+    color: #7a6666;
+}
+.head1
+{
+    color: #e32a62;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32PX;
+    margin: 30PX 0PX 20PX;
+}
+.container3
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #c8c10d;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding: 45px 250px;
+}
+
+/* ---------------------------- about container ----------------------- */
+
+.about-container1
+{
+    background-color: #c8c10d;
+    color: white;
+    margin-top: 120px;
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.about-container2
+{
+    background-color: #ebebed;
+    display: flex;
+    justify-content: space-around;
+}
+.about-container3
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 270px;
+    font-size: 15px;
+}
+.about-left-box
+{
+    background-color: #efedee;
+    color: #7a6666;
+    width: 300px;
+    padding: 45px 0px;
+    text-align: center;
+}
+.about-right-box
+{
+    color: #7a6666;
+    width: 600px;
+    line-height: 27px;
+}
+.about-heading
+{
+    font-size: 24px;
+    color: #e32a62;
+}
+
+/* ---------------------------- contact container ----------------------- */
+
+.contact-container1
+{
+    background-image: url(./images/map.jpg);
+    padding: 40px 300px 40px 330px;
+}
+.map-box
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px 80px 20px 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.map-right
+{
+    padding: 20px 0px 20px 30px;
+    color: #7a6666;
+    font-size: 15px;
+    line-height: 27px;
+}
+.contact-container2
+{
+    display: flex;
+    padding: 40px 320px;
+}
+.contact-right-box
+{
+    background-color: #efedee;
+    color: #7a6666;
+    width: 300px;
+    height: 190px;
+    padding: 25px 0px;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+}
+.contact-left-box
+{
+    width: 650px;
+}
+.contact-input
+{
+    width: 550px;
+    height: 35px;
+    margin: 4px;
+}
+.contact-input2
+{
+    width: 550px;
+    height: 280px;
+    margin: 4px;
+}
+.contact-submit
+{
+    width: 140px;
+    height: 40px;
+    margin: 4px;
+    background-color: white;
+    border: solid #cbb5bc;
+}
+.contact-submit:hover
+{
+    background-color: #c8c10d;
+    border-color: #c8c10d;
+}
+
+/* ---------------------------- blog container ----------------------- */
+
+.blog-container1
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 350px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #7a6666;
+}
+.blog-left-box
+{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-left-box2
+{
+    padding: 0px 10px 0px 40px;
+    width: 400px;
+}
+.blog-right-box
+{
+    background-color: #efedee;
+    color: #7a6666;
+    width: 300px;
+    height: 610px;
+    padding: 40px 40px;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+}
+.blog-right-box .blog-submit
+{
+    margin-left: 20px;
+    background-color: #eae7e8;
+}
+.blog-heading
+{
+    color: #cb3362;
+    font-weight: 800;
+    width: 205px;
+}
+.blog-submit
+{
+    width: 160px;
+    height: 30px;
+    padding-top: 5px;
+    background-color: white;
+    border: 2px solid #cbb5bc;
+    text-align: center;
+    font-size: 17px;
+}
+.blog-submit:hover
+{
+    background-color: #c8c10d;
+    border-color: #c8c10d;
+    color: white;
+}
+.link
+{
+    text-decoration: none;   
+    color: #8c7c7c; 
+    font-weight: 600;
+}
+.blog-load
+{
+    margin-left: 220px;
+}
+
+/* ---------------------------- single post container ----------------------- */
+
+.singlepost-container1
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 450px ;
+    line-height: 25px;
+    font-size: 14px;
+    color: #7a6666;
+}
+.singlepost-left-box2
+{
+    width: 600px;
+    margin-left: 40px;
+}
+.singlepost-left-box2 .contact-submit
+{
+    margin-left: 200px;
+}
+
+/* ---------------------------- products container ----------------------- */
+
+.products-container
+{
+    padding: 5px 260px;
+}
+.products
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.items
+{
+    width: 200px;
+    line-height: 25px;
+    font-size: 15px;
+    color: #7a6666;
+}
+.product-heading
+{
+    font-size: 26px;
+    font-weight: bolder;
+    color: #e32a62;
+    margin: 80px 0px 30px;
+}
+.items label
+{
+    font-size: 20px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    color: #e32a62;
+}
+
+/* ---------------------------- footer ----------------------- */
+
+footer
+{
+    background-color: #cb3362;
+    padding: 50px 250px;
+    height: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.social
+{
+    width: 30px;
+    margin: 10px 13px 30px;
+}
